@@ -1,0 +1,30 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.caixa {
+    position: relative;
+    width: 1440px;
+    margin: auto;
+    background-color: red;
+    height: 80px;
+    padding-left: 147px;
+ 
+    
+}
+
+nav {
+    position: absolute;
+    right: 200px;
+    background-color: gray;
+    
+}
+
+nav ul {
+    display: inline;
+    margin: 0px 50px;
+}
+
+nav li {
+    display: inline;
+}
