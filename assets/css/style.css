@@ -1,37 +1,46 @@
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+}
 body {
     font-family: 'Inter', sans-serif;
-}
-
-.caixa {
-    position: relative;
-    width: 1300px;
-    margin: auto;
-    height: 80px;
-    padding-left: 147px;
-}
-.caixa h1 {
-    position:absolute;
-    top: 32px;
+    height: 100vh;
+    width: 100px;
 }
 
 nav {
     display: inline;
-    position: absolute;
-    top: 26px;
     line-height: 24px;
-    left: 379px;
+    width: 100%;
+    height: 80px;
+    color: var(--text-color);
 }
+
 nav a {
     text-decoration: none;
 }
 
+a:visited{
+    color: var(--text-color)
+}
+
+nav h1 {
+    position: absolute;
+    left: 112px;
+    top: 26.5px;
+    vertical-align: top;
+}
+
 .itens  li{
     padding-right: 32px;
+    color: var(--text-color);
 }
 
 nav ul {
+    position: absolute;
+    top: 28px;
+    left: 379px;
     display: inline;
-   
 }
 
 nav li {
@@ -39,12 +48,14 @@ nav li {
 }
 
 .login {
-    position: relative;
-    left: 350px;
+    position: absolute;
+    top: 18px;
+    left: 1139px;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 44px;
     font-weight: 500;
-    color: #667085;
+    color: var(--text-color);
+    cursor: pointer;
     
 }
 
