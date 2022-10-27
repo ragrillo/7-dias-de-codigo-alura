@@ -54,7 +54,6 @@ nav ul {
     font-weight: 500;
     color: var(--text-color);
     cursor: pointer;
-    background-color: red;
     
 }
 
@@ -76,7 +75,7 @@ nav ul {
     width: 100%;
     height: 407px;
     padding-top: 96px;
-    
+    text-align: center;  
 }
 
 .cabecalho span  {
@@ -90,19 +89,18 @@ nav ul {
 }
 
 .cabecalho h1 {
-    width: 603px;
+    width: 100%;
     font-size: 48px;
     font-weight: 600;
     line-height: 60px;
     letter-spacing: -0.02em;
     color: #101828;
-    margin: 24px 411px 36px 426px;
+    margin: 24px 0px 36px;
    
 }
 
 .cabecalho p {
-    width: 791px;
-    margin: 0 325px;
+    width: 100%;
     text-align: center;
     font-weight: 400;
     font-size: 20px;
