@@ -48,7 +48,7 @@ nav ul {
 .login {
     position: absolute;
     top: 18px;
-    left: 1328px;
+    left: 80%;
     font-size: 16px;
     line-height: 44px;
     font-weight: 500;
@@ -78,13 +78,11 @@ nav ul {
     text-align: center;  
 }
 
-.cabecalho span  {
-    width: 100px;
+.cabecalho span  { 
     color:var(--main-color);
     line-height: 24px;
     font-size: 16px;
     font-weight: 600;   
-    margin: 96px 681px 0 681px; 
   
 }
 
