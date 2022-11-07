@@ -156,6 +156,8 @@ nav ul {
     line-height: 30px;
     font-weight: 400;
     color: var(--text-color);
+    padding-bottom: 64px;
+    
 
 }
 
@@ -181,3 +183,90 @@ nav ul {
     padding: 20px 0;
 }
 
+.vagas-gerais {
+    padding: 64px 0px;
+    margin: 0px 336px;
+    padding-bottom: 96px;
+}
+
+.vagas-gerais h3 {
+    color: #101828;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.vagas-detalhadas{
+    box-sizing: border-box;
+    border: 1px solid #eaecf0;
+    border-radius: 16px;
+    width: 768px;
+    height: 136px;
+    padding: 24px 24px 28px;
+    margin-bottom: 24px ;
+    text-align: left;
+}
+
+.vagas-detalhadas h4 {
+    color: #101828;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 32px;
+    
+
+}
+.vagas-detalhadas span {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.opniao-colaboradores {
+    background: rgba(196, 25, 25, 0.03);
+    height: 300px;
+    border-radius: 16px;
+    text-align: center;
+    margin: 0px 112px 96px 112px;
+    padding: 64px;
+}
+
+.opniao-colaboradores h2 {
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 16px;
+    margin: 0px 64px;
+}
+
+.subtitulo-opniao{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #101028;
+}
+
+.opniao-colaboradores img {
+    width: 56px;
+    height: 56px;
+    padding: 32px 0px 16px;
+}
+
+.nome-pessoa{
+    color: #101828;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.nome-profissao{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--text-color);
+    padding: 4px 0px 64px;
+}
